@@ -1,0 +1,25 @@
+const trickster = require("./src/");
+
+console.log("== Format Object to JSON ==");
+console.log(trickster.formatJSON({name: "trickster"}));
+console.log();
+console.log("== Get Unique Values From An Array ==");
+console.log(trickster.getUniqueArrayValue(["name","trickster","lorem","lorem","trickster"]));
+console.log();
+console.log("== Removing Falsy Values From Array ==");
+console.log(trickster.filterFalsy([NaN,"trickster",0,"",false]));
+console.log();
+console.log("== Sort Number Arrays ==");
+console.log(trickster.sortNumberArray([1,2,99,4,88,1002,103,72]));
+console.log();
+console.log("== Merge Any ==");
+console.log(trickster.mergeAny([1,2,99,4,88,1002,103,72],"hi"));
+console.log();
+console.log("== Transform the arguments object into an array ==");
+console.log(trickster.transform());
+console.log();
+console.log("== HTML Escape ==");
+console.log(trickster.htmlEscape('"&<html>'));
+console.log();
+console.log("== Get Random Number with Specific Range");
+console.log(trickster.randomNumberWithRange(10000));
