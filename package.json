@@ -1,0 +1,24 @@
+{
+  "name": "trickster",
+  "version": "1.0.0",
+  "description": "Trickster is a javascript library of wrapped functions of javascript tricks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node trickster"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauzan121002/trickster.git"
+  },
+  "keywords": [
+    "javascript",
+    "tricks",
+    "nodejs"
+  ],
+  "author": "fauzan121002",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauzan121002/trickster/issues"
+  },
+  "homepage": "https://github.com/fauzan121002/trickster#readme"
+}

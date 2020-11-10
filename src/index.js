@@ -1,6 +1,6 @@
 module.exports = {
     formatJSON: require('./format_json'),
-    getUniqueArrayValue: require('./get_unique_array_values'),
+    getUniqueArrayValues: require('./get_unique_array_values'),
     filterFalsy: require('./filter_falsy_values'),
     sortNumberArray: require('./sort_number_array'),
     mergeAny: require('./merge_any'),

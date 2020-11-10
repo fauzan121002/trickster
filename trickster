@@ -4,7 +4,7 @@ console.log("== Format Object to JSON ==");
 console.log(trickster.formatJSON({name: "trickster"}));
 console.log();
 console.log("== Get Unique Values From An Array ==");
-console.log(trickster.getUniqueArrayValue(["name","trickster","lorem","lorem","trickster"]));
+console.log(trickster.getUniqueArrayValues(["name","trickster","lorem","lorem","trickster"]));
 console.log();
 console.log("== Removing Falsy Values From Array ==");
 console.log(trickster.filterFalsy([NaN,"trickster",0,"",false]));
