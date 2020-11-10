@@ -1,5 +1,5 @@
 {
-  "name": "trickster",
+  "name": "javascript-trickster",
   "version": "1.0.0",
   "description": "Trickster is a javascript library of wrapped functions of javascript tricks.",
   "main": "index.js",
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/fauzan121002/trickster/issues"
   },
-  "homepage": "https://github.com/fauzan121002/trickster#readme"
+  "homepage": "https://github.com/fauzan121002/trickster#readme",
+  "publishConfig": { "registry": "https://registry.npmjs.org/" }
 }
