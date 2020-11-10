@@ -21,7 +21,7 @@ Table of Contents
 
 With NPM
 ```bash
-npm install trickster
+npm install javascript-trickster
 ```
 
 With Github (also run example)
